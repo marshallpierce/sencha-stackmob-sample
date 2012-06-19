@@ -9,6 +9,16 @@ Ext.define("StackMobDemo.view.Main", {
 
         items: [{
             xclass: 'StackMobDemo.view.List'
-        }]
+        }],
+
+        navigationBar: {
+            items: [{
+                xtype: 'button',
+                id: 'addButton',
+                iconCls: 'add',
+                iconMask: true,
+                align: 'right'
+            }]
+        }
     }
 });

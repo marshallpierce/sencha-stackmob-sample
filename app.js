@@ -8,6 +8,7 @@ Ext.application({
     models: ['Meat'],
     views: ['Main'],
     stores: ['Meats'],
+    controllers: ['Application'],
 
     icon: {
         '57': 'resources/icons/Icon.png',
