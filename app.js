@@ -5,7 +5,9 @@ Ext.application({
         'Ext.MessageBox'
     ],
 
+    models: ['Meat'],
     views: ['Main'],
+    stores: ['Meats'],
 
     icon: {
         '57': 'resources/icons/Icon.png',
